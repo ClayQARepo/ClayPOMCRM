@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T13:27:06 EST" name="Default suite" finished-at="2024-03-05T13:27:41 EST" duration-ms="35103">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T13:27:06 EST" name="Default test" finished-at="2024-03-05T13:27:41 EST" duration-ms="35103">
+      <class name="com.crm.clay.testcases.DocuTemplateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.clay.testcases.DocuTemplateTest@235834f2]" started-at="2024-03-05T13:27:06 EST" name="setUp" finished-at="2024-03-05T13:27:10 EST" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyDraftTest()[pri:0, instance:com.crm.clay.testcases.DocuTemplateTest@235834f2]" started-at="2024-03-05T13:27:10 EST" name="VerifyDraftTest" finished-at="2024-03-05T13:27:41 EST" duration-ms="30721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDraftTest -->
+      </class> <!-- com.crm.clay.testcases.DocuTemplateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

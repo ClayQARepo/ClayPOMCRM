@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite Runner">
+ 
+  
+  	 <listeners>
+		<listener class-name="com.crm.clay.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	 <test name="Test Clay">
+    <classes>
+      <class name="com.crm.clay.testcases.LoginTest"/>
+      <class name="com.crm.clay.testcases.HomePageTest"/>
+      <class name="com.crm.clay.testcases.DocuTemplateTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

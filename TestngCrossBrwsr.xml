@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite Runner">
+  <test name="Chrome Clay Test">
+	  <parameter name="browserName" value="chrome"></parameter>
+  
+  	<!-- <listeners>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> -->
+	
+    <classes>
+      <class name="com.crm.clay.testcases.LoginTest"/>
+      <class name="com.crm.clay.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Firefox Clay Test">
+	  <parameter name="browserName" value="firefox"></parameter>
+  
+  	<!-- <listeners>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> -->
+	
+    <classes>
+      <class name="com.crm.clay.testcases.LoginTest"/>
+      <class name="com.crm.clay.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Edge Clay Test">
+	  <parameter name="browserName" value="edge"></parameter>
+  
+  	<!-- <listeners>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> -->
+	
+    <classes>
+      <class name="com.crm.clay.testcases.LoginTest"/>
+      <class name="com.crm.clay.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

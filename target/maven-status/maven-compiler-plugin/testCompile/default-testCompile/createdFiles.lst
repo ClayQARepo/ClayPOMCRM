@@ -1,0 +1,4 @@
+com\crm\clay\testcases\UserManagementTest.class
+com\crm\clay\testcases\LoginTest.class
+com\crm\clay\testcases\OrganizationSettingTest.class
+com\crm\clay\testcases\HomePageTest.class

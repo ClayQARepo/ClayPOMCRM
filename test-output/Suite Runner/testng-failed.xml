@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Runner]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.clay.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Clay(failed)">
+    <classes>
+      <class name="com.crm.clay.testcases.DocuTemplateTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TestCategoryTypeLoop"/>
+        </methods>
+      </class> <!-- com.crm.clay.testcases.DocuTemplateTest -->
+    </classes>
+  </test> <!-- Test Clay(failed) -->
+</suite> <!-- Failed suite [Suite Runner] -->

@@ -1,0 +1,6 @@
+com\crm\clay\pages\HomePage.class
+com\crm\clay\base\TestBase.class
+com\crm\clay\util\TestUtil.class
+com\crm\clay\pages\LoginPage.class
+com\crm\clay\pages\UserManagementPage.class
+com\crm\clay\pages\OrganizationSettingPage.class
