@@ -46,8 +46,8 @@ public class TestBase {
      
 		
     	if(browserName.equals("chrome")) {
-    		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\maira\\eclipse-workspace\\CRM_CLAY_POM\\Drivers\\chrome.exe");
-    		//WebDriverManager.chromedriver().setup();
+    		System.setProperty("webdriver.chrome.driver", "C:\\Users\\maira\\eclipse-workspace\\CRM_CLAY_POM\\Drivers\\chrome.exe");
+    		WebDriverManager.chromedriver().setup();
     		driver=new ChromeDriver();
     		System.out.println("Chrome is launched");
     		
@@ -57,7 +57,8 @@ public class TestBase {
     		driver=new FirefoxDriver();
     		System.out.println("firefox is launched");
     	}else if(browserName.equals("edge")) {
-    		//WebDriverManager.edgedriver().setup();
+    		System.setProperty("webdriver.chrome.driver", "C:\\Users\\maira\\eclipse-workspace\\CRM_CLAY_POM\\Drivers\\msedgedriver.exe");
+    		//WebDriverManager.edgedriver().setup();C:\Users\maira\eclipse-workspace\CRM_CLAY_POM\Drivers\msedgedriver.exe
     		driver=new EdgeDriver();
     		System.out.println("Edge is launched");
     	}
@@ -65,7 +66,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(prop.getProperty("url"));
 	}
 	}

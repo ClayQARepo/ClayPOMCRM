@@ -11,10 +11,10 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//div[text()='Main dashboard']")
 	WebElement homepagetext;
 	
-	@FindBy(linkText = "Raeon Ltd.")
+	@FindBy(xpath = "//span[contains(text(),'Skybuild Desvelopters')]")
 	WebElement projectname;
 	
-	@FindBy(xpath="//div[contains(text(),'Dashboard')]")
+	@FindBy(xpath="//div[contains(text(),'Main dashboard')]")
 	WebElement projectpage;
 	
 	public HomePage(){

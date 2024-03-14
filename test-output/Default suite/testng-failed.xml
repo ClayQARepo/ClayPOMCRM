@@ -5,8 +5,9 @@
     <classes>
       <class name="com.crm.clay.testcases.DocuTemplateTest">
         <methods>
-          <include name="VerifyDraftTest"/>
+          <include name="EditEnvelopeTest"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.crm.clay.testcases.DocuTemplateTest -->
     </classes>
